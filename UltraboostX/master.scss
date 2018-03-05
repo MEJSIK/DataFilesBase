@@ -1,0 +1,66 @@
+$white: #fff;
+@font-face {
+    font-family: 'adineue PRO KZ Bold';
+    src: url('fonts/adineuePRO-Bold.ttf');
+}
+
+
+.UltraboostX {
+    display: flex;
+    justify-content: center;
+    background: $white; 
+    
+    .flex-container {
+        max-width:1180px;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+    }
+    .flex-row{
+        flex: 0 1 auto;
+        flex-direction: row;
+         position: relative;
+    }
+
+    .flex-item {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        position: relative;
+        .desciption{
+            text-transform: uppercase;            
+            &-header{
+                  font-family: 'adineue PRO KZ Bold';
+                  text-align: center;
+
+            }
+        }
+    
+    }
+   .shoes{
+            width: 400px;
+    }
+    .flex-center{
+        display: flex;
+        justify-content: center;
+    }
+    video.main-vid {
+            position: absolute;
+            width: 65%;
+            top: -470px;
+            left: 190px;
+    }
+
+
+
+    .img-r{
+        width: 100%;
+    }
+
+}
+
+
